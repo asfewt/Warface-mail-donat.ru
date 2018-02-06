@@ -1,0 +1,218 @@
+.display-none {
+  display: none;
+}
+.registration {
+  background: rgba(4, 8, 12, 0.85);
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: fixed;
+  overflow: auto;
+  z-index: 99; 
+  display: none;
+}
+.registration * {
+  box-sizing: border-box;
+}
+.registration p {
+  margin: 0;
+}
+.registration a {
+    color: #ff4400;
+    text-decoration: none;
+    outline: none;
+}
+.registration__close {
+    background-image: url(../static/wf.mail.ru/modules/regform/img/close.png);
+    background-position: center center;
+    position: absolute;
+    left:100%;
+    top:0;
+    cursor: pointer;
+    height: 15px;
+    margin-left: 10px;
+    width: 15px;
+}
+.registration__wrap {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 404px;
+  box-sizing: border-box;
+  padding: 20px;
+  background: #191e23;
+  font: 15px/20px Plumb;
+  color:#a9aeb3;
+}
+.registration__inner {
+  width: 304px;
+  margin: 5px auto 20px auto;
+}
+.registration__tabs {
+  text-align: justify;
+  font:0;
+  cursor: default;
+}
+.registration__tabs:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+  margin: 0 0 25px 0px;
+}
+.registration__tab {
+  display: inline-block;
+  cursor: pointer;
+  font: bold 16px Quantico,Arial,Helvetica,sans-serif;
+  cursor: pointer;
+}
+.registration__tab.active {
+  color:#ff4400;
+  text-decoration: underline;
+  cursor: default;
+}
+.registration__row {
+  margin: 0 0 5px;
+}
+.registration__row .registration__input {
+  height: 40px;
+  line-height: 40px;
+  padding: 0 7px;
+  width: 100%;
+  border: 1px solid #5e6468;
+  background: #191e23;
+  color:#fff;
+  font: 15px Plumb;
+}
+input::-webkit-input-placeholder {color:#5e6468;font-size: 18px;}
+input:-moz-placeholder {color:#5e6468;font-size: 18px;}
+
+.registration__submit__block {
+  position: relative;
+  min-height: 46px;
+}
+.registration__submit {
+  border: 1px solid #ff4400;
+  color:#ff4400;
+  text-align: center;
+  background: #191e23;
+  font: 17px/42px Quantico,Arial,Helvetica,sans-serif;
+  cursor: pointer;
+  text-transform: uppercase;
+  width: 100%;
+  outline: none;
+}
+.registration__submit__block .registration__submit {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}
+.registration__loader {
+  position: absolute;
+  right: -40px;
+  top: 7px;
+}
+.registration_notes {
+  background: none;
+  border:0px;
+  min-height: 25px;
+  font-size: 14px;
+  text-align: left;
+}
+.registration_notes.error {
+  background: none;
+  color: #ff0000;
+  border:0px;
+}
+.registration_notes.warning {
+  background: none;
+  color: #ffe200;
+  border:0px;
+}
+.registration__submit.next {
+  height: 47px;
+}
+.registration__submit:hover {
+	color: #000;
+	background: #fff;
+	border-color: #fff;
+	}
+
+.buttons_or {
+  position: relative;
+  text-align: center;
+  margin: 0 0 15px;
+}
+.buttons_or:before {
+  content: '';
+  position: absolute;
+  top:50%;
+  left:0;
+  right:0;
+  height: 0;
+  font-size:0;
+  border-top:1px solid #40464c;
+}
+.buttons_or span {
+  display: inline-block;
+  padding: 0 10px;
+  background: #191e23;
+  position: relative;
+}
+.registration__new-mail {
+  text-transform: uppercase;
+  text-align: right;
+  padding: 25px 0 25px 0;
+}
+.registration__new-mail span{
+  color:#ff4400;
+  cursor: pointer;
+}
+img.registration__loader {
+  display: none;
+}
+.registration__buttons {
+  text-align: center;
+}
+.registration__buttons_auth {
+  margin-top: 20px;
+}
+.registration__form .reg_signin {
+  color: #ff4400;
+  cursor: pointer;
+}
+.registration__form .reg_signin:hover {
+  text-decoration: underline;
+}
+.soc-button {
+  display: inline-block;
+  width: 38px;
+  height: 41px;
+  vertical-align: top;
+  background: url(../static/wf.mail.ru/modules/regform/img/soc.png) no-repeat 0 0;
+  cursor: pointer;
+  margin: 0 20px;
+}
+
+.soc-button:hover{
+	-webkit-filter: brightness(300%);
+      -ms-filter: brightness(300%);
+          filter: brightness(300%);
+}
+.soc-button--vk {
+  background-position: -88px 0;
+}
+.soc-button--ok {
+  background-position: -170px 0;
+}
+.soc-button--rts {
+  background-position: -241px 0;
+}
+.registration__lostpass {
+  display: block;
+  text-align: right;
+  margin: 5px 0 20px;
+}

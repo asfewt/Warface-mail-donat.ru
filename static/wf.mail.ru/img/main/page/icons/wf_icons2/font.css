@@ -1,0 +1,93 @@
+﻿/*--- карта: https://cloud.mail.ru/public/M2go/pkLijBSEv ---*/
+
+@charset "UTF-8";
+
+@font-face {
+  font-family: "wf-icons-new";
+  src:url("wf-icons-new.eot");
+  src:url("{1c7b1f15e986f82d4a3cdbf9ef677cb0}") format("embedded-opentype"),
+    url("wf-icons-new.woff") format("woff"),
+    url("wf-icons-new.ttf") format("truetype"),
+    url("wf-icons-new.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "wf-icons-new" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "wf-icons-new" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bullet-arrow:before {
+  content: "\69";
+}
+.icon-crown:before {
+  content: "\6a";
+}
+.icon-timer:before {
+  content: "\6b";
+}
+.icon-engineer:before {
+  content: "\6c";
+}
+.icon-lock:before {
+  content: "\6d";
+}
+.icon-credit:before {
+  content: "\6e";
+}
+.icon-medic:before {
+  content: "\6f";
+}
+.icon-credit-full:before {
+  content: "\70";
+}
+.icon-warbucks-full:before {
+  content: "\71";
+}
+.icon-crown-full:before {
+  content: "\72";
+}
+.icon-rifleman:before {
+  content: "\73";
+}
+.icon-sniper:before {
+  content: "\74";
+}
+.icon-vip:before {
+  content: "\75";
+}
+.icon-resurection:before {
+  content: "\76";
+}
+.icon-arrow-left:before {
+  content: "\77";
+}
+.icon-arrow-right:before {
+  content: "\78";
+}
+.icon-rur:before {
+  content: "\79";
+}

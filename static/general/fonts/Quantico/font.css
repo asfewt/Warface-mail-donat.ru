@@ -1,0 +1,20 @@
+
+@font-face {
+	font-family: 'Quantico';
+	src: url('Quantico.woff') format('woff'),
+		 url('Quantico.woff2') format('woff2'),
+		 url('Quantico.ttf') format('truetype'),
+		 url('Quantico.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	}
+
+/*@font-face {
+	font-family: 'Quantico';
+	src: url('quantico-bold.woff') format('woff'),
+		 url('quantico-bold.woff2') format('woff2'),
+		 url('quantico-bold.ttf') format('truetype'),
+		 url('quantico-bold.svg') format('svg');
+	font-weight: bold;
+	font-style: normal;
+	}*/
